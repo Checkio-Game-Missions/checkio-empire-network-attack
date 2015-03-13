@@ -1,11 +1,11 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeRank
 
 import settings
 import settings_env
 from tests import TESTS
 
 
-class Referee(RefereeBase):
+class Referee(RefereeRank):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
