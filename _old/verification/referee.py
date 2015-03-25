@@ -38,5 +38,5 @@ api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
         tests=TESTS,
-        function_name="capture"
+        DEFAULT_FUNCTION_NAME="capture"
     ).on_ready)

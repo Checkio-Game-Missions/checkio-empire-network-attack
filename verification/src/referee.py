@@ -7,6 +7,6 @@ from tests import TESTS
 
 class Referee(RefereeRank):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "capture"
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
+    DEFAULT_FUNCTION_NAME = "capture"
