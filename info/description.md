@@ -8,6 +8,4 @@ Information about a network is represented as a matrix NxN in size, where  **N**
 If the **i**th computer connected with **j**th computer, then `matrix[i][j] == matrix[j][i] == 1`, else 0.
 Security levels are placed in the main matrix diagonal, so matrix[i][i] is the security level for the **i**th computer.
 
-![Attack](attack.svg)
-
 You should calculate how much time is required to capture the whole network in minutes.
